@@ -1,0 +1,9 @@
+services:
+  webora:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webora
+    ports:
+      - "${WEBORA_PORT:-8080}:80"
+    restart: unless-stopped

@@ -1,0 +1,11 @@
+{
+  "title": "CRM webora",
+  "description": "Manage and track sales prospects with a dynamic dashboard, searchable data views, and Kanban pipeline to boost conversion and streamline follow-ups.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
